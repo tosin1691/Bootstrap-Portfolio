@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Preview and inspect the web applications that showcases the designs and skill set of web developer, Tosin Orekoya">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <title>Tosin Orekoya Web Portfolio</title>
+</head>
+
+
+<body>
+
+    <!--Navigation-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
+            <div class="container-fluid">
+                <div><a class="navbar-brand" href="#">T.O Portfolio</a></div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactMe">Contact Me</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Hero/Jumbotron Section-->
+    <div class="p-5 text-center bg-body-tertiary hero">
+        <div class="container py-5 hero-container">
+          <h1 class="text-body-emphasis cover-text">Tosin Orekoya<h1>
+          <p class="col-lg-8 mx-auto lead cover-text">
+            Frontend Web Developer
+          </p>
+        </div>
+    </div>
+      
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3" id="aboutMe">
+        <h1 class="display-5 fw-bold bioHeader">About Me</h1>
+        <div class="container-fluid py-5 bio-container">
+            <div>
+                <img id="avatar" src="./images/Tosin23.jpeg" alt="a close up shot of the portfolio owner, Tosin" width="20%">
+            </div>
+            <div class="bio">
+                <p class="col-md-8 fs-4 bioText">I am a personable, engaging and experienced chartered accountant currently undergoing a career transition to the digital space. My interest for web development stems from my passion for problem solving. The feeling of a great sense of success after solving a complex problem is indescribable and I look forward to working in a field that greatly links with my passion. I am currently studying in a Frontend Web Development bootcamp certificate program at edX Online, where I am continuing to build my skills in HTML & CSS, JavaScript, React.js, and responsive web design. I thoroughly enjoy collaborating with my peers to bring our software visions to life.</p>
+                <P class="bio-subtext"><span id="bio-span">Technical Skills:</span> JavaScript ES6+, CSS3, HTML5, Responsive web design, Bootstrap and GitHub</P>
+                <div class="bio-social">
+                    <p id="bio-connect">Connect with me at:</p>
+                    <a href="https://github.com/tosin1691" target="_blank"><img class="social-icon" src="./images/github.png" alt="git hub icon"></a>
+                    <a href="https://www.linkedin.com/in/tosin-orekoya/" target="_blank"><img class="social-icon" src="./images/linkedin.png" alt="Linkedin icon"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--End of Hero/Jumbotron Section-->
+
+    <!--Main Section-->
+    <main>
+        <section>
+            <h2 class="subHeading" id="Portfolio">Portfolio</h2>
+            <div class="container-fluid">
+                <div class="row portfolioGrid">
+                <div class="cardContainer col-lg-4 col-md-12 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/att-tracker2.jpg" class="card-img-top tracker-img" alt="Attendance tracker icon">
+                        <div class="card-body">
+                        <h5 class="card-title">Attendance Tracker</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://tosin1691.github.io/Church-att-tracker-app/" target="_blank" id="tracker" class="btn btn-primary link-btn">Site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/basketball-score.jpeg" class="card-img-top scorecard-img" alt="an icon displaying a hoop basket, a basketball and a scorecard all on the same row">
+                        <div class="card-body">
+                        <h5 class="card-title">Basketball Scorecard</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://tosin1691.github.io/Basketball-scoreboard/" target="_blank" id="scorecard" class="btn btn-primary link-btn">Site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/deck-cards.jpeg" class="card-img-top blackjack-img" alt="deck of cards icon">
+                        <div class="card-body">
+                        <h5 class="card-title">Blackjack Game</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://tosin1691.github.io/Blackjack-Game/" target="_blank" id="blackjack" class="btn btn-primary link-btn">Site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
+                    <div class="card bottom-card1" style="width: 18rem;">
+                        <img src="./images/pass-gen.jpg" class="card-img-top" alt="deck of cards icon">
+                        <div class="card-body">
+                        <h5 class="card-title">Password Generator</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://tosin1691.github.io/gen-password-app-efficient/" target="_blank" id="passwordGen" class="btn btn-primary link-btn">Site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
+                    <div class="card bottom-card2" style="width: 18rem;">
+                        <img src="./images/town-icon.jpeg" class="card-img-top hometown" alt="town icon">
+                        <div class="card-body">
+                        <h5 class="card-title">Hometown Site</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://tosin1691.github.io/Hometown-site-TO/" target="_blank" id="hometownSite" class="btn btn-primary link-btn">Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contactMe">
+            <h3 id="contact-text">Contact Me.</h3>
+            <a href="mailto:olaseni.orekoya@yahoo.co.uk" target="_blank" id="mail">olaseni.orekoya@yahoo.co.uk</a>
+            <div class="icons">
+                <a href="mailto:olaseni.orekoya@yahoo.co.uk" target="_blank"><img class="social-icon" src="./images/mail.png" alt="mail icon"></a>
+                <a href="https://github.com/tosin1691" target="_blank"><img class="social-icon" src="./images/github.png" alt="git hub icon"></a>
+                <a href="https://www.linkedin.com/in/tosin-orekoya/" target="_blank"><img class="social-icon" src="./images/linkedin.png" alt="Linkedin icon"></a>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <p>
+            &copy; Copyright 2023 Tosin Orekoya
+        </p>
+    </footer>
+    
+    <!--Bootstrap JS link-->  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>  
+</body>
+</html>
