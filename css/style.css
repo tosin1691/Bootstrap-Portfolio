@@ -57,7 +57,7 @@ nav ul li a:hover, #mail:hover, .social-icon:hover {
     position: relative;
     height: 250px;
     width: 100%;
-    background-image: url(/images/TO-Jumbo.png);
+    background-image: url(../images/TO-Jumbo.png);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
