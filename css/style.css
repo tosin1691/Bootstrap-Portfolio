@@ -1,0 +1,247 @@
+:root {
+    --lightGrayColor: #C0BCB5;
+    --darkColor: black;
+}
+
+
+* {
+    /*set font for the entire webpage*/
+    font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+    /*removes all margins and set background of the body of the page*/
+    background-color: rgba(241, 135, 15, 0.07);
+}
+
+/*The below sets CSS styling for the navigation section on the page*/
+
+.customNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.customNav, #aboutMe {
+    background-color: rgba(241, 135, 15, 0.0) !important;
+    
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.nav-item {
+font-size: 20px;
+padding-left: 5px;
+}
+
+.customNav a {
+    color: var(--darkColor);
+}
+
+nav ul li a:hover, #mail:hover {
+    background-color: var(--lightGrayColor);
+}
+
+
+/*The below sets CSS styling for the Hero/Jumbotron section on the page*/
+
+.hero {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-image: url(/images/London-city.jpeg);
+    background-size: cover;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(192,192,192, 0.63);
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hero p, #bio-connect  {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero-container {
+    box-sizing: border-box;
+    padding: 14px 0 0 !important;
+}
+
+.cover-text {
+    margin: 0;
+    position: relative;
+    color: var(--darkColor);  
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+#aboutMe {
+    padding-bottom: 0 !important;
+}
+
+.bioHeader {
+border-bottom: 1px solid var(--lightGrayColor);
+margin: 0 !important;
+padding-bottom: 10px;
+margin-top: 50px;
+font-size: 35px;
+}
+
+.bio-container {
+    display: flex;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+
+#avatar {
+    width: 360px;
+    max-width: 360px;
+    height: auto;
+    margin-top: 5px;
+    margin-right: 35px;
+    border-radius: 10px;
+    border: 3px solid var(--darkColor);
+}
+
+.bio {
+    text-align: justify
+}
+
+.bioText {
+    width: 100%;
+    font-size: 20px !important;
+}
+
+#bio-span, #bio-connect, .subHeading, #contact-text {
+    font-weight: bold;
+}
+
+.bio-subtext {
+    font-size: 18px;
+}
+
+.bio-social {
+    text-align: center;
+}
+
+.social-icon {
+    width: 2rem;
+    margin: 0 4px;
+}
+
+
+/*The below sets CSS styling for the main section on the page*/
+
+main, #aboutMe {
+    /*set the width for the "main" section and centres the main using margin*/
+    width: 65%;
+    margin: 0 auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.subHeading {
+    /*sets font size, slignment, border, width ad margin for the subheading, Portfolio*/
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 2px solid var(--lightGrayColor);
+    width: 130px;
+    margin: 0 auto 50px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+.cardContainer {
+    text-align: center;
+    
+}
+
+.card {
+    margin: 0 auto 50px;
+    border: 3px solid var(--darkColor);
+}
+
+.card-title {
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: rgba(212, 132, 83, 0.75);
+    font-weight: bold;
+}
+
+.link-btn {
+    cursor: pointer;
+    background-color: rgba(212, 132, 83, 0.75);
+    border: none;
+    font-weight: bold;
+}
+
+.tracker-img, .scorecard-img, .blackjack-img {
+    height: 28.3vh;
+}
+
+.hometown {
+    height: 22.8vh;
+}
+
+.bottom-card1 {
+    margin-left: 16.5rem;
+}
+
+.bottom-card2 {
+    margin-right: 16.5rem;
+}
+
+/* The below sets CSS styling for the contact me section of the page*/
+
+#contactMe, footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact-text {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+#mail {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--darkColor);
+}
+
+.icons {
+    margin: 10px 0 35px;
+}
+
+
+
+footer, footer p {
+    /* sets margin bottom to 0 for the footer section of the page*/
+    margin-bottom: 0;
+}
+
+
+
+
+
+
