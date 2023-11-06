@@ -38,7 +38,7 @@ padding-left: 5px;
 }
 
 .navbar-nav {
-    margin-right: 10px;
+    margin-right: 12px;
 }
 
 .customNav a {
@@ -47,17 +47,20 @@ padding-left: 5px;
 
 nav ul li a:hover, #mail:hover, .social-icon:hover {
     background-color: var(--lightGrayColor);
+    box-shadow: 5px 5px rgba(212, 132, 83, 0.75);
 }
 
 
-/*The below sets CSS styling for the Hero/Jumbotron section on the page*/
+/*The below sets CSS styling for the Hero/Jumbotron section of the page*/
 
 .hero {
     position: relative;
-    height: 200px;
+    height: 250px;
     width: 100%;
-    background-image: url(/images/London-city.jpeg);
-    background-size: cover;
+    background-image: url(/images/TO-Jumbo.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .hero::before {
@@ -94,6 +97,8 @@ nav ul li a:hover, #mail:hover, .social-icon:hover {
     
 }
 
+
+/*The below sets CSS styling for the About Me elements of the jumbotron*/
 #aboutMe {
     padding-bottom: 0 !important;
 }
@@ -136,7 +141,7 @@ font-size: 35px;
 }
 
 .bio-subtext {
-    font-size: 1em;
+    font-size: 1.125em;
     line-height: 20px;
 }
 
@@ -168,6 +173,8 @@ main, #aboutMe {
     width: 130px;
     margin: 0 auto 50px;
 }
+
+/*The below sets CSS styling for the cards*/
 
 .container-fluid {
     padding: 0;
@@ -242,7 +249,7 @@ footer, footer p {
 }
 
 
-/* The below sets media queries to ensure the page is responsive and is able to adapt to various screen sizes*/
+/* The below sets media queries to ensure the page is responsive and is able to adapt to various screen sizes - the use of media queries as been minimised and as only been applied on the about me section due to my use of bootstrap components*/
 
 
 
