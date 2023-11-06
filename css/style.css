@@ -37,11 +37,15 @@ font-size: 20px;
 padding-left: 5px;
 }
 
+.navbar-nav {
+    margin-right: 10px;
+}
+
 .customNav a {
     color: var(--darkColor);
 }
 
-nav ul li a:hover, #mail:hover {
+nav ul li a:hover, #mail:hover, .social-icon:hover {
     background-color: var(--lightGrayColor);
 }
 
@@ -110,22 +114,21 @@ font-size: 35px;
 }
 
 #avatar {
-    width: 360px;
-    max-width: 360px;
+    width: 27vw;
     height: auto;
     margin-top: 5px;
-    margin-right: 35px;
+    margin-right: 25px;
     border-radius: 10px;
     border: 3px solid var(--darkColor);
 }
 
 .bio {
-    text-align: justify
+    text-align: justify;
 }
 
 .bioText {
-    width: 100%;
-    font-size: 20px !important;
+    font-size: 1.25em !important;
+    line-height: 20px;
 }
 
 #bio-span, #bio-connect, .subHeading, #contact-text {
@@ -133,7 +136,8 @@ font-size: 35px;
 }
 
 .bio-subtext {
-    font-size: 18px;
+    font-size: 1em;
+    line-height: 20px;
 }
 
 .bio-social {
@@ -176,39 +180,36 @@ main, #aboutMe {
 }
 
 .card {
-    margin: 0 auto 50px;
+    margin: 0 auto 10px;
     border: 3px solid var(--darkColor);
 }
 
 .card-title {
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
     text-align: center;
     color: #ffffff;
-    cursor: pointer;
     background-color: rgba(212, 132, 83, 0.75);
     font-weight: bold;
 }
 
 .link-btn {
     cursor: pointer;
-    background-color: rgba(212, 132, 83, 0.75);
+    background-color:var(--darkColor);
     border: none;
     font-weight: bold;
 }
 
-.tracker-img, .scorecard-img, .blackjack-img {
-    height: 28.3vh;
+.link-btn:hover {
+    background-color: rgba(212, 132, 83, 0.75);
+    box-shadow: 5px 5px var(--darkColor) !important;
 }
 
-.hometown {
-    height: 22.8vh;
-}
-
-.bottom-card1 {
-    margin-left: 16.5rem;
-}
-
-.bottom-card2 {
-    margin-right: 16.5rem;
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
 }
 
 /* The below sets CSS styling for the contact me section of the page*/
@@ -241,6 +242,25 @@ footer, footer p {
 }
 
 
+/* The below sets media queries to ensure the page is responsive and is able to adapt to various screen sizes*/
+
+
+
+@media only screen and (max-width: 767px) {
+  
+
+    .bio-container {
+        display: inline-block;
+       
+    }
+
+    #avatar {
+        width: 100%;
+        max-width: 70vw;
+        margin-bottom: 20px;
+    }
+
+}
 
 
 
