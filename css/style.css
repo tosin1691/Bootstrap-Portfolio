@@ -55,12 +55,11 @@ nav ul li a:hover, #mail:hover, .social-icon:hover {
 
 .hero {
     position: relative;
-    height: 250px;
+    height: 280px;
     width: 100%;
-    background-image: url(../images/TO-Jumbo.png);
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
+    background-image: url(../images/IMG_8859.png);
+    background-size: cover;
+    background-position: 20% 30.5%;
 }
 
 .hero::before {
@@ -74,12 +73,12 @@ nav ul li a:hover, #mail:hover, .social-icon:hover {
 }
 
 .hero h1 {
-    font-size: 45px;
+    font-size: 55px;
     font-weight: bold;
 }
 
-.hero p, #bio-connect  {
-    font-size: 20px;
+.hero p {
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -94,6 +93,8 @@ nav ul li a:hover, #mail:hover, .social-icon:hover {
     color: var(--darkColor);  
     font-size: 25px;
     text-align: center;
+    text-shadow: 1px 3px 2px rgba(192,192,192, 0.63);
+    
     
 }
 
@@ -137,6 +138,11 @@ font-size: 35px;
 }
 
 #bio-span, #bio-connect, .subHeading, #contact-text {
+    font-weight: bold;
+}
+
+#bio-connect  {
+    font-size: 20px;
     font-weight: bold;
 }
 
