@@ -68,7 +68,7 @@ The "contact me" section provides user with various platforms to contact the dev
 N/A
 
 ## Screenshot
-![Alt text](<./images/Bootstrap-project-screenshot.png>)
+![Alt text](<./images/TO-Bootstrap-screenshot.png>)
 
 ## Deployed application
 
